@@ -11,7 +11,7 @@ Here is a suggested outline for studying this weekend:
    - additional notes on each days' topics
 
 
-3. Attempt Practice Assessment 
+3. Attempt Practice Assessment
    - very similar format to the coding portion on the real assessment
 	 - a bit more difficult than the real assessment so if you can complete this
 	   you should be in great shape
@@ -35,18 +35,27 @@ Here is a suggested outline for studying this weekend:
 
 5. Try Practice Assessment Again
 
+## ASSESSMENT FORMAT
 
-# ASSESSMENT FORMAT
 - multiple choice problems, as usual
 - coding portion, similar in format to that of the practice test
 - length = 1.5 hours
 
 
+## LIVE SERVER
 
-
-# LIVE SERVER
 - VS code extension you must install (see image below)
-- launches a development local Server with live reload feature for static & dynamic pages
+- launches a development local Servhter with live reload feature for static & dynamic pages
 - to use: right click on the `index.html` file and select "open with live server"
 
 ![live-server-extension](./images/live-server.png)
+
+
+## Walkthrough Video
+
+Here is a [Video Walkthrough](https://drive.google.com/file/d/1QSGP7Xzeq2n4VOxBjHdXoZerbYinBNUs/view?usp=sharing)
+
+- :heavy-check-mark: Pick up handy tricks.
+- :heavy-check-mark: Stress less come monday.
+
+> **ProTip:** *Don't forget you can speed up (or slow down) the playback speed!*
