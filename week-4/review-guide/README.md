@@ -45,7 +45,7 @@ Here is a suggested outline for studying this weekend:
 ## LIVE SERVER
 
 - VS code extension you must install (see image below)
-- launches a development local Servhter with live reload feature for static & dynamic pages
+- launches a development local Server with live reload feature for static & dynamic pages
 - to use: right click on the `index.html` file and select "open with live server"
 
 ![live-server-extension](./images/live-server.png)
