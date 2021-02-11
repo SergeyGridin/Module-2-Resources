@@ -1,4 +1,3 @@
-
 class Animal {
   constructor(name, age) {
     this.name = name;
@@ -26,5 +25,4 @@ class Cat extends Animal {
   }
 }
 
-
-module.exports = { Cat, Dog }
+module.exports = { Cat, Dog };
