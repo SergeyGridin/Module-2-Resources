@@ -1,13 +1,12 @@
-
 class Animal {
-	constructor(name, age) {
-		this.name = name;
-		this.age = age;
-	}
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
 
-	speak() {
-		console.log(`hi my name is ${this.name}`);
-	}
+  speak() {
+    console.log(`hi my name is ${this.name}`);
+  }
 }
 
 export class Dog extends Animal {
@@ -25,6 +24,3 @@ export class Cat extends Animal {
     console.log(`${this.name} meows`);
   }
 }
-
-// module.exports = { Cat, Dog }
-

@@ -1,5 +1,5 @@
-const { Cat, Dog } = require('./animal.js')
-const Shelter = require('./shelter.js');
+const { Cat, Dog } = require("./animal.js");
+const Shelter = require("./shelter.js");
 
 let bodhi = new Dog("bodhi", 5);
 let pancake = new Cat("pancake", 10);

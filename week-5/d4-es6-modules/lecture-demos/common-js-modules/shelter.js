@@ -1,5 +1,3 @@
-
-
 class Shelter {
   constructor(animals = []) {
     this.animals = animals;
@@ -10,9 +8,4 @@ class Shelter {
   }
 }
 
-
 module.exports = Shelter;
-
-
-
-
