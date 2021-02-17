@@ -59,14 +59,22 @@ function liftWeights(time) {
   });
 }
 
-function workout(allTime) {}
+function workout(allTime) {
+  stretch(allTime)
+    .then((timeLeftAfterStretch) => runOnTreadmill(timeLeftAfterStretch))
+    .then((timeLeftAfterStretchAndRun) =>
+      liftWeights(timeLeftAfterStretchAndRun)
+    )
+    .then(() => console.log("done working out"))
+    .catch((err) => console.log("Error: ", err));
+}
 
 workout(2000);
 // 		done stretching
 // 		done running on treadmill
 // 		Error:  you dont have enough time to lift weights
 
-// workout(4000);
+workout(4000);
 // 		done stretching
 // 		done running on treadmill
 // 		done lifting weights

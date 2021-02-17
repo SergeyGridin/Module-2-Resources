@@ -7,7 +7,6 @@ function stretch() {
   });
 }
 
-
 function runOnTreadmill() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -16,7 +15,6 @@ function runOnTreadmill() {
     }, 500);
   });
 }
-
 
 function liftWeights() {
   return new Promise((resolve, reject) => {
@@ -27,28 +25,15 @@ function liftWeights() {
   });
 }
 
-
-// TODO: use async & await to create a function called workout that runs the 
-// above functions in a way that ensures you begin runningOnTreadmill after 
-// you're finished stretching, you being liftWeights after you've finished 
-// running on the treadmill and console.logs "done working out" after 
+// TODO: use async & await to create a function called workout that runs the
+// above functions in a way that ensures you begin runningOnTreadmill after
+// you're finished stretching, you being liftWeights after you've finished
+// running on the treadmill and console.logs "done working out" after
 // you've finished lifting weights
 
+async function workout() {}
 
-async function workout() {
-	try {
-		await stretch();
-		await runOnTreadmill();
-		await liftWeights();
-		console.log('done working out')
-	} catch (err) {
-		console.log(err)
-	}
-}
-
-
-
-// TESTING: 
+// TESTING:
 // - run the file (node problem_1.js) to see if you get the expected output
 
 workout();
