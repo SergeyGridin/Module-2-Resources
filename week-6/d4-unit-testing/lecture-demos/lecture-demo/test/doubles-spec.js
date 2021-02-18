@@ -1,7 +1,7 @@
 const chai = require("chai");
 const expect = chai.expect;
 
-const { double, doubleInPlace } = require("../problems/equal");
+const { double, doubleInPlace } = require("../problems/doubles");
 
 // deep.equal & eql
 // - checks that child objects are the same
@@ -20,12 +20,11 @@ describe("double function", () => {
   });
 
   it("should return a new array", () => {
+    let input = [1, 2, 3];
+    let res = double(input);
 
-		let input = [1, 2, 3];
-		let res = double(input);
-
-		expect(res).to.be.an("array");
-		expect(input).to.not.equal(res);
+    expect(res).to.be.an("array");
+    expect(input).to.not.equal(res);
   });
 });
 
@@ -39,23 +38,14 @@ describe("doubleInPlace function", () => {
   });
 
   it("should return the original array", () => {
+    let input = [1, 2, 3];
 
-		let input = [1, 2, 3];
+    let res = doubleInPlace(input);
 
-		let res = doubleInPlace(input);
-
-		expect(res).to.be.an("array");
-		expect(input).to.equal(res);
+    expect(res).to.be.an("array");
+    expect(input).to.equal(res);
   });
 });
-
-
-
-
-
-
-
-
 
 // USING ASSERT
 
